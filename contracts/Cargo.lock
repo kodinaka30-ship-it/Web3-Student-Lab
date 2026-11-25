@@ -552,6 +552,7 @@ dependencies = [
 name = "dao-governance"
 version = "0.1.0"
 dependencies = [
+ "soroban-certificate-contract",
  "soroban-sdk",
 ]
 
@@ -1203,6 +1204,7 @@ name = "lending-pool"
 version = "0.1.0"
 dependencies = [
  "proptest",
+ "soroban-certificate-contract",
  "soroban-sdk",
 ]
 
@@ -1251,6 +1253,7 @@ checksum = "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98"
 name = "multisig-wallet-timelock"
 version = "0.1.0"
 dependencies = [
+ "soroban-certificate-contract",
  "soroban-sdk",
 ]
 
@@ -1342,6 +1345,7 @@ name = "payment-gateway"
 version = "0.1.0"
 dependencies = [
  "rand 0.9.5",
+ "soroban-certificate-contract",
  "soroban-sdk",
 ]
 
@@ -1611,9 +1615,9 @@ dependencies = [
 
 [[package]]
 name = "rustix"
-version = "1.1.4"
+version = "1.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b6fe4565b9518b83ef4f91bb47ce29620ca828bd32cb7e408f0062e9930ba190"
+checksum = "e5e76742e5294153d4dde1207dbec5bdd81eef6fabdc0d2118babadabfd858aa"
 dependencies = [
  "bitflags",
  "errno",
